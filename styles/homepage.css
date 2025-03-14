@@ -44,18 +44,30 @@
 }
 
 .studio-img-container {
-
+  
 }
 
 .studio-text {
-  display: inline-block;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .studio-desc-container {
-  background-color: lightpink;
+  margin-top: 20px;
 }
 
 .studio-title-container {
-  background-color: lightgreen;
+  text-align: center;
 }
 
+.studio-title-p {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Abril Fatface, Arial;
+}
+
+.studio-desc-p {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  line-height: 10px;
+}
